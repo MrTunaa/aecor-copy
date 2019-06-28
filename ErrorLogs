@@ -1,0 +1,27 @@
+
+DBM Error: Error with Event "Delete Message", Action #2
+_______
+JS Error:  DiscordAPIError: Cannot execute action on a DM channel
+    at C:\Users\MrTun\Desktop\node_modules\discord.js\src\client\rest\RequestHandlers\Sequential.js:85:15
+    at C:\Users\MrTun\Desktop\node_modules\snekfetch\src\index.js:215:21
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+
+DBM Error: Error with Event "Restart Bot", Action #3
+_______
+JS Error:  Error: Command failed: node minicop.js
+    at checkExecSyncError (child_process.js:616:11)
+    at Object.execSync (child_process.js:652:15)
+    at Object.action [as Restart Bot] (C:\Users\MrTun\Desktop\Mini Cop\actions\restart_bot_MOD.js:124:8)
+    at Object.Actions.callNextAction (C:\Users\MrTun\Desktop\Mini Cop\aecor.js:493:18)
+    at Object.<anonymous> (C:\Users\MrTun\Desktop\Mini Cop\actions\delete_message.js:111:9)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
+
+DBM Error: Error with Event "Restart Bot", Action #3
+_______
+JS Error:  Error: Command failed: node minicop.js
+    at checkExecSyncError (child_process.js:616:11)
+    at Object.execSync (child_process.js:652:15)
+    at Object.action [as Restart Bot] (C:\Users\MrTun\Desktop\New folder (3)\actions\restart_bot_MOD.js:124:8)
+    at Object.Actions.callNextAction (C:\Users\MrTun\Desktop\New folder (3)\aecor.js:493:18)
+    at Object.<anonymous> (C:\Users\MrTun\Desktop\New folder (3)\actions\delete_message.js:111:9)
+    at processTicksAndRejections (internal/process/task_queues.js:89:5)
